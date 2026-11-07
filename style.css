@@ -275,3 +275,18 @@ footer {
     }
 
 }
+/* تأثير بطاقات الخدمات */
+.service-box {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.service-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 123, 255, 0.2);
+    border-color: #0ea5e9;
+}
+
+.service-box:active {
+    transform: scale(0.97);
+}
