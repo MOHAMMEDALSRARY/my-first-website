@@ -314,3 +314,14 @@ footer {
 .btn:active {
     transform: scale(0.96);
 }
+/* حركة ظهور الأقسام */
+section.reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+section.reveal.show {
+    opacity: 1;
+    transform: translateY(0);
+}
