@@ -207,3 +207,23 @@ footer {
 .portfolio-box p {
     color: #475569;
 }
+/* قسم من نحن */
+.about {
+    padding: 70px 10%;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.about h2 {
+    font-size: 32px;
+    color: #0f172a;
+    margin-bottom: 25px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #475569;
+    max-width: 750px;
+    margin: 15px auto;
+    line-height: 2;
+}
