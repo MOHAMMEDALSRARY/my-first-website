@@ -165,3 +165,45 @@ footer {
         margin: 10px 0;
     }
 }
+/* قسم أعمالنا */
+.portfolio {
+    padding: 70px 8%;
+    text-align: center;
+    background-color: #f1f5f9;
+}
+
+.portfolio h2 {
+    font-size: 32px;
+    color: #0f172a;
+    margin-bottom: 35px;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio-box {
+    background-color: white;
+    width: 30%;
+    min-width: 220px;
+    padding: 30px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.portfolio-box:hover {
+    transform: translateY(-8px);
+}
+
+.portfolio-box h3 {
+    color: #2563eb;
+    margin-bottom: 12px;
+}
+
+.portfolio-box p {
+    color: #475569;
+}
