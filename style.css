@@ -300,3 +300,17 @@ footer {
     transform: translateY(-10px);
     box-shadow: 0 10px 25px rgba(0, 123, 255, 0.2);
 }
+/* تأثير أزرار الموقع */
+.btn {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 123, 255, 0.3);
+}
+
+.btn:active {
+    transform: scale(0.96);
+}
