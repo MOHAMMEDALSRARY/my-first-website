@@ -290,3 +290,13 @@ footer {
 .service-box:active {
     transform: scale(0.97);
 }
+/* تأثير بطاقات الأعمال */
+.portfolio-box {
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.portfolio-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 123, 255, 0.2);
+}
