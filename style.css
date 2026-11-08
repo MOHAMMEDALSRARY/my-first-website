@@ -325,3 +325,51 @@ section.reveal.show {
     opacity: 1;
     transform: translateY(0);
 }
+/* تصميم قسم باقات الأسعار */
+.pricing {
+    padding: 60px 8%;
+    text-align: center;
+}
+
+.pricing h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    color: #0f172a;
+}
+
+.pricing-box {
+    background: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 350px;
+    border-radius: 15px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+}
+
+.pricing-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,123,255,0.2);
+}
+
+.pricing-box h3 {
+    color: #0f172a;
+    margin-bottom: 12px;
+}
+
+.pricing-box p {
+    color: #64748b;
+    margin-bottom: 15px;
+}
+
+.pricing-box ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.pricing-box li {
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
