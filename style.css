@@ -373,3 +373,9 @@ section.reveal.show {
     padding: 8px;
     border-bottom: 1px solid #eee;
 }
+.price {
+    color: #0284c7;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 12px 0;
+}
