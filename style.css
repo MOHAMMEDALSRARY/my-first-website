@@ -379,3 +379,28 @@ section.reveal.show {
     font-weight: bold;
     margin: 12px 0;
 }
+.why-us {
+    padding: 60px 8%;
+    text-align: center;
+    background-color: #f1f5f9;
+}
+
+.why-us h2 {
+    font-size: 30px;
+    color: #0f172a;
+    margin-bottom: 35px;
+}
+
+.why-us .service-box {
+    background: white;
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.why-us .service-box h3 {
+    margin-bottom: 12px;
+    color: #0284c7;
+}
