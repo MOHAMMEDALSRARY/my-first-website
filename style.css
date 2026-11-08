@@ -404,3 +404,22 @@ section.reveal.show {
     margin-bottom: 12px;
     color: #0284c7;
 }
+
+.footer {
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 35px 15px;
+    margin-top: 40px;
+}
+
+.footer h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #38bdf8;
+}
+
+.footer p {
+    font-size: 15px;
+    margin: 10px 0;
+}
